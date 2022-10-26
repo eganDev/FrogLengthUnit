@@ -1,0 +1,205 @@
+.frog {
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    transform: rotate(60deg);
+    user-select: none;
+    top: -20px;
+    left: 0px;
+    opacity: 0.5;
+}
+.frog2 {
+    width: 150px;
+    height: 1500px;
+    position:absolute;
+    transform: rotate(0deg);
+    user-select: none;
+    top: 20px;
+    right: -15px;
+    z-index: 0;
+    opacity: 0.5;
+}
+.frog-dark {
+    opacity: 1;
+}
+.text {
+    left: 160px;
+}
+.text-shadow {
+    text-shadow: 3px 4px 7px rgba(2, 134, 64, 0.5)
+}
+.text-shadow-dark {
+    text-shadow: 4px 5px 10px rgba(0, 245, 114, 1)
+}
+.bg-black {
+    background: #001C08;
+}
+
+.box-shadow-menu {
+    background: #00300E;
+    box-shadow: rgb(0, 255, 89) 0px 1px 20px, rgb(66, 228, 123) 0px 1px 10px;
+} 
+.bg-convert-btn {
+    background: #004a12;
+    color: #42e773;
+    box-shadow: rgb(0, 110, 38) 0px 1px 20px, rgb(0, 128, 45)0px 1px 10px;
+}
+.input-changing {
+    color: #000000;
+    background-color: rgba(104, 255, 174, 0.5);
+    border-color: #006a1b;
+    box-shadow: rgb(0, 110, 38) 0px 1px 20px, rgb(0, 128, 45)0px 1px 10px;
+}
+.input-changing::placeholder {
+    color:rgba(0, 0, 0, 0.734);
+}
+.selete-dark {
+    background: #004a12;
+    color: #42e773;
+    box-shadow: rgb(0, 110, 38) 0px 1px 10px, rgb(0, 128, 45)0px 1px 10px;
+
+}
+.save-dark {
+    background: #0d441b;
+    box-shadow: rgb(0, 110, 38) 0px 3px 20px, rgb(0, 128, 45)0px 1px 10px;
+}
+.save-dark-text {
+    color: #42e773;
+}
+.history-dark {
+    background: #42e773;
+    box-shadow: rgb(0, 255, 89) 0px 1px 20px, rgb(66, 228, 123) 0px 1px 10px;
+}
+.history-tag-dark {
+    background: #00300c;
+    box-shadow: rgb(0, 110, 38) 0px 1px 20px, rgb(0, 128, 45)0px 1px 10px;
+}
+.history-tag-dark-text {
+    color: #42e773;
+}
+.hover-close:hover {
+    background: #42e773;
+    color: #006a1b;
+}
+
+@media only screen and (max-width: 46.1875rem) {
+.body {
+    width: 100vw;
+   height: 100vh;
+}
+.main {
+        width: 90%;
+}
+.main-name .title-text {
+    font-size: 40px;
+    text-align: center;
+    font: bold;
+}
+.main-name {
+    margin-bottom: 15px;
+    margin-top: -20px;
+}
+.convert-tag {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+}
+.main-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 95%;
+}
+.input-tag {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-top: -80px;
+    width: 100%;
+}
+.input-tag-2 {
+    margin-top: -120px;
+}
+.convert-btn {
+    position: relative;
+    margin-left: -158px;
+    transform: translateY(60px);
+}
+.convert-btn:hover {
+    position: relative;
+    margin-left: -160px;
+    transform: translateY(60px);
+}
+.style-input {
+    width: 280px;
+}
+.save-btn {
+    transform: translate(40px, 16px);
+}
+.save-btn:hover {
+    transform: translate(40px, 16px);
+}
+.frog2-res {
+    position: absolute;
+    right: 0;
+    margin-top: 170px;
+    margin-right: -10px;
+    opacity: 0.7;
+    width: 100px;
+    height: 100px;
+}
+.history-res {
+    width: 100%;
+}
+.text-alert {
+    left: 20px;
+}
+}
+    
+@media only screen and (max-width: 380px) {
+    .main-input {
+        width: 98%;
+    }
+    .body {
+        width: 100vw;
+       height: 100vh;
+    }
+    .main-name .title-text {
+        font-size: 35px;
+        text-align: center;
+    }
+    .convert-btn {
+        position: relative;
+        margin-left: -150px;
+        transform: translateY(60px);
+    }
+    .convert-btn:hover {
+        position: relative;
+        margin-left: -150px;
+        transform: translateY(60px);
+    }
+    .input-tag {
+        display: flex;
+        flex-direction: row;
+        height: 150px;
+        margin-top: -100px;
+        width: 90%;
+    }
+    .input-tag-2 {
+        margin-top: -120px;
+    }
+    .convert-tag {
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+    }
+    .frog2-res {
+        position: absolute;
+        right: 0;
+        margin-top: 150px;
+        margin-right: -10px;
+        opacity: 0.7;
+        width: 100px;
+        height: 100px;
+    }
+}
