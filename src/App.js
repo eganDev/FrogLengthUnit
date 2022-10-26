@@ -79,7 +79,7 @@ function App() {
   const takeResult = (e) => {
       setObject2nd({
         ...object2nd,
-        content2nd: (parseInt(object1st.content1st)*toMetter[object1st.option1st]*CoverMetter[object2nd.option2nd]).toFixed(6),
+        content2nd: (parseFloat(object1st.content1st)*toMetter[object1st.option1st]*CoverMetter[object2nd.option2nd]).toFixed(6),
       })
     }
   const addHistory = () => {
@@ -122,7 +122,7 @@ function App() {
       setHistory({
         ...history,
         input: object1st.content1st,
-        output: (parseInt(object1st.content1st)*toMetter[object1st.option1st]*CoverMetter[object2nd.option2nd]).toFixed(6),
+        output: (parseFloat(object1st.content1st)*toMetter[object1st.option1st]*CoverMetter[object2nd.option2nd]).toFixed(6),
         op1: object1st.option1st,
         op2: object2nd.option2nd
       }) 
